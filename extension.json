@@ -1,0 +1,23 @@
+{
+  "name": "ChronoLogs",
+  "author": "Arthaey Angosii",
+  "url": "https://github.com/Arthaey/ChronoLogs",
+  "descriptionmsg": "chronologs-desc",
+  "license-name": "GPL-2.0-or-later",
+  "type": "parserhook",
+  "MessagesDirs": {
+    "ChronoLogs": [
+      "i18n"
+    ]
+  },
+  "ExtensionMessagesFiles": {
+    "ChronoLogsMagic": "ChronoLogs.i18n.magic.php"
+  },
+  "AutoloadClasses": {
+    "ChronoLogs": "ChronoLogs.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": "ChronoLogs::onParserFirstCallInit"
+  },
+  "manifest_version": 1
+}
